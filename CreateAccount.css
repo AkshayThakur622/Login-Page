@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+  background-color: aliceblue;
+  height: 90vh;
+  margin: auto;
+  margin-top: 30px;
+  width: 20%;
+  border: 0.5px solid rgb(142, 143, 142);
+  padding: 10px;
+}
+.required {
+    color: red;
+  }
+.login-box{
+    margin-top: 30px;
+}
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #161616;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #060606;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #090909;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #090909;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #9552d8;
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #b669d7;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+
+.radio{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.radio1{
+    margin-right: 30px;
+    display: flex;
+}
+.radio2{
+    display: flex;
+}
+
+input[type='radio']{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+#Yes{
+    accent-color: rgb(151, 89, 187);  
+}
+#No{
+    accent-color: rgb(151, 89, 187);  
+}
+
+input{
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    height: 50%;
+    border: 1px solid #c240e0;
+    border-radius: 5px;
+    background: rgb(144, 77, 195);
+  }
